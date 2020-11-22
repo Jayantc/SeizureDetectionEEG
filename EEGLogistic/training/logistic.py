@@ -16,7 +16,7 @@ print(model.columns)
 print("First 5 records of dataset")
 print(model.head())
 
-print("Dimension of diabetes data: {}".format(model.shape))
+print("Dimension of data: {}".format(model.shape))
 
 X_train, X_test, y_train, y_test = train_test_split(model.loc[:, model.columns != 'y'], model['y'], stratify=model['y'],
                                                     test_size=0.30, random_state=6)
