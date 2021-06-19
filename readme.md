@@ -1,0 +1,1 @@
+We have four different folders. Each folder has train folder inside it which contains algorithm. Firts, run that algorithm (eg. svm.py). Latest model will get trained & will get created in folder. Move that model out of train folder & run MAIN_PAGE.py. Login using your credentials & enter row number from FEATURE_SET to whome you want to detect seizure. It will get detected.
